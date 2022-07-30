@@ -1,3 +1,5 @@
+[![Test][test-img]][test]
+
 # terraform-azure-vm
 
 Terraform code to spin up a small Ubuntu VM in the Azure Cloud. To prevent unexpected behaviour execute all commands in a Powershell.
@@ -19,3 +21,6 @@ Terraform code to spin up a small Ubuntu VM in the Azure Cloud. To prevent unexp
 - Run `terraform init` to initialize terraform working directory.
 - Execute `terraform apply` and confirm
 - (Optional) Connect to your Azure VM via Remote-SSH extension (Connect to Host...)
+
+[test]: https://github.com/ingoaf/terraform-azure-vm/actions/workflows/tfsec_pr_commenter.yml
+[test-img]: https://github.com/ingoaf/terraform-azure-vm/actions/workflows/tfsec_pr_commenter.yml/badge.svg
